@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(hsl(252, 30%, 53%), rgb(78, 188, 207));
+}
+.calci {
+  width: 500px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#display {
+  border: none;
+  background-color: aliceblue;
+  border-radius: 30px;
+  width: 250;
+  height: 50px;
+  font-size: 20;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  margin: auto;
+  border: 2px solid white;
+  color: black;
+}
+.button {
+  width: 50px;
+  height: 50px;
+  padding-top: -1;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20;
+  font-weight: 300;
+  border-radius: 50%;
+  margin: 2;
+  shape-rendering: geometricPrecision;
+}
+.operator {
+  width: 50px;
+  height: 50px;
+  padding-top: -1;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20;
+  font-weight: 300;
+  border-radius: 50%;
+  margin: 2;
+  shape-rendering: crispEdges;
+  transition: 0.25px;
+  cursor: pointer;
+}
+.operator:hover {
+  background-color: aqua;
+}
+
+#zero {
+  width: 100px;
+  height: 50px;
+  padding-top: -1;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20;
+  font-weight: 300;
+  margin: 2;
+  border-radius: 30px;
+  transition: 0.25px;
+  cursor: pointer;
+}
+h1 {
+  font-size: 40px;
+  margin-top: 20%;
+  margin-left: 10%;
+  text-decoration: underline;
+  color: aliceblue;
+}
